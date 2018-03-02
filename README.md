@@ -12,7 +12,7 @@ public class helloController {
     }
 }
 ``` 
-##同一个函数不同的访问方式返回不同的视图。##
+**同一个函数不同的访问方式返回不同的视图。**
 - `http://localhost:8080/greeting` `http://localhost:8080/greeting.html`  返回html  Hello, World!
 - `http://localhost:8080/greeting.json` 返回json视图
 ```
